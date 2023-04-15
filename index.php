@@ -4,52 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>Описание сайта <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <title>Описание сайта</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta name="description" content="Описание">
     <meta name="keywords" content="ключевые слова ">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1></h1>
-</body>
-<header class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-        </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Главная</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Функции</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Ценообразование</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQ</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">О нас</a></li>
-        </ul>
+<header class="navbar navbar-expand-md navbar-dark bd-navbar bg-black">
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-        </form>
+<nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Основная навигация">
 
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Войти</button>
-          <button type="button" class="btn btn-warning">Зарегистрироваться</button>
-        </div>
-      </div>
-    </div>
-  </header>
+  <a class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none" href="#">
+    <img src="img/logo.png" class="px-1" alt="" width="240" height="60">
+  </a>
 
-<?php
-include('nav.php')
-?>
+  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+    <li><a href="index.php" class="nav-link px-2 text-white">Главная</a></li>
+    <li><a href="#port" class="nav-link px-2 text-white">Портфолио</a></li>
+    <li><a href="#price" class="nav-link px-2 text-white">Цены</a></li>
+    <li><a href="#contact" class="nav-link px-2 text-white">Контакты</a></li>
+  </ul>
+
+  <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+    <li class="nav-item col-6 col-md-auto">
+      <a class="nav-link p-2" Whatsapp" href="whatsapp://send?phone=79854487143"><img src="img/whatsapp-32.png"
+          alt="Whatsapp" href="#"></a>
+    </li>
+    <li class="nav-item col-6 col-md-auto">
+      <a class="nav-link p-2" Whatsapp" href="https://telegram.me/LopezDeniz"><img src="img/telegramm.png"
+          alt="telegramm" href="https://telegram.me/LopezDeniz"></a>
+    </li>
+  </ul>
+
+  <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3 bg-white" type="button"
+    data-bs-toggle="modal" data-bs-target="#staticBackdrop">Оставить Заявку</a>
+
+</nav>
+</header>
+
+
 
 <div class="container">
 
@@ -92,4 +91,5 @@ include('nav.php')
     <p class="text-center text-muted">© 2022 Компания</p>
   </footer>
 </div>
+</body>
 </html>
